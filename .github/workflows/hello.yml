@@ -9,3 +9,5 @@ jobs:
         run: echo "こんにちは、GitHub Actions"
       - name: ファイルの一覧を表示する
         run: ls
+      - name: 日時を表示する
+        run: date
