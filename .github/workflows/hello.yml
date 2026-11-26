@@ -1,0 +1,9 @@
+name: はじめてのワークフロー
+on:
+  push:
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: あいさつする
+        run: echo "こんにちは、GitHub Actions"
