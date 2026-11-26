@@ -13,3 +13,5 @@ jobs:
         run: ls
       - name: 日時を表示する
         run: date
+      - name: 終了コード1で終わる
+        run: exit 1
